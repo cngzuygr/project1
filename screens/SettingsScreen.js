@@ -5,8 +5,6 @@ import { FlatList, TouchableOpacity } from "react-native-gesture-handler";
 import { AntDesign } from "@expo/vector-icons";
 import { auth } from "../firebase";
 
-const as = sa;
-
 const DATA = [
 	{
 		id: "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",

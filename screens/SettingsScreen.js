@@ -5,6 +5,8 @@ import { FlatList, TouchableOpacity } from "react-native-gesture-handler";
 import { AntDesign } from "@expo/vector-icons";
 import { auth } from "../firebase";
 
+const as = sa;
+
 const DATA = [
 	{
 		id: "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
@@ -86,8 +88,7 @@ const SettingsScreen = ({ navigation }) => {
 		<View style={{ flex: 1 }}>
 			<Image
 				source={{
-					uri:
-						"https://images.pexels.com/photos/132340/pexels-photo-132340.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+					uri: "https://images.pexels.com/photos/132340/pexels-photo-132340.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
 				}}
 				style={StyleSheet.absoluteFillObject}
 				blurRadius={5}

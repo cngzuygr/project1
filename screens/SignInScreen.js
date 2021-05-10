@@ -55,7 +55,7 @@ const SignInScreen = ({ navigation }) => {
 					inputStyle={{ color: "lightyellow" }}
 				/>
 				<Input
-					placeholder="Password"
+					placeholder="Şifre"
 					secureTextEntry
 					type="password"
 					value={password}
@@ -75,7 +75,7 @@ const SignInScreen = ({ navigation }) => {
 					}}
 					containerStyle={styles.button}
 					onPress={signIn}
-					title="Login"
+					title="Giriş"
 				/>
 				<Button
 					raised
@@ -90,7 +90,7 @@ const SignInScreen = ({ navigation }) => {
 					onPress={() => navigation.navigate("SignUpScreen")}
 					containerStyle={styles.button}
 					type="outline"
-					title="Register"
+					title="Kayıt"
 				/>
 			</View>
 		</KeyboardAvoidingView>

@@ -33,11 +33,11 @@ const SignUpScreen = ({ navigation }) => {
 		<KeyboardAvoidingView behavior="padding" style={styles.container}>
 			<StatusBar style="light" />
 			<Text h3 style={{ marginBottom: 50 }}>
-				Create an Account Now!
+				Yeni Hesap Oluştur
 			</Text>
 			<View style={styles.inputContainer}>
 				<Input
-					placeholder="Full Name"
+					placeholder="Tam İsim"
 					type="text"
 					value={name}
 					onChangeText={(text) => setName(text)}
@@ -49,14 +49,14 @@ const SignUpScreen = ({ navigation }) => {
 					onChangeText={(text) => setEmail(text)}
 				/>
 				<Input
-					placeholder="Password"
+					placeholder="Şifre"
 					secureTextEntry
 					type="password"
 					value={password}
 					onChangeText={(text) => setPassword(text)}
 				/>
 				<Input
-					placeholder="Profile Picture Url (optional)"
+					placeholder="Profil Fotoğrafı (opsiyonel)"
 					type="text"
 					value={imageUrl}
 					onChangeText={(text) => setImageUrl(text)}

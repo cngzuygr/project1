@@ -8,21 +8,21 @@ import { auth } from "../firebase";
 const DATA = [
 	{
 		id: "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
-		title: "Account",
+		title: "Hesap",
 		icon: "user",
 		iconColor: "lightyellow",
 		textColor: "lightyellow",
 	},
 	{
 		id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
-		title: "Notifications",
+		title: "Bildirimler",
 		icon: "notification",
 		iconColor: "lightyellow",
 		textColor: "lightyellow",
 	},
 	{
 		id: "58694a0f-3da1-471f-bd96-145571e29d72",
-		title: "About",
+		title: "Hakkında",
 		icon: "infocirlceo",
 		iconColor: "lightyellow",
 		textColor: "lightyellow",
@@ -123,7 +123,7 @@ const SettingsScreen = ({ navigation }) => {
 								color: "lightyellow",
 							}}
 						>
-							Sign Out
+							Çıkış Yap
 						</Text>
 					</View>
 				</TouchableOpacity>
